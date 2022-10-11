@@ -20,6 +20,7 @@
 		2F7D378E285D9FC5009642A3 /* MyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2F7D378A285D9FC4009642A3 /* MyWidget.intentdefinition */; };
 		2F7D378F285D9FC5009642A3 /* MyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2F7D378A285D9FC4009642A3 /* MyWidget.intentdefinition */; };
 		2F7D3792285D9FC5009642A3 /* MyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2F7D3781285D9FC4009642A3 /* MyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2FA67E6D28F4641B009C6E6D /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2FA67E6C28F4641B009C6E6D /* Documentation.docc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		2F7D378A285D9FC4009642A3 /* MyWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MyWidget.intentdefinition; sourceTree = "<group>"; };
 		2F7D378B285D9FC5009642A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F7D378D285D9FC5009642A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FA67E6C28F4641B009C6E6D /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		2F7D375D285D9FA9009642A3 = {
 			isa = PBXGroup;
 			children = (
+				2FA67E6C28F4641B009C6E6D /* Documentation.docc */,
 				2F7D3768285D9FA9009642A3 /* WidgetDemo */,
 				2F7D3787285D9FC4009642A3 /* MyWidget */,
 				2F7D3782285D9FC4009642A3 /* Frameworks */,
@@ -242,6 +245,7 @@
 				2F7D378F285D9FC5009642A3 /* MyWidget.intentdefinition in Sources */,
 				2F7D376E285D9FA9009642A3 /* ViewController.swift in Sources */,
 				2F7D376A285D9FA9009642A3 /* AppDelegate.swift in Sources */,
+				2FA67E6D28F4641B009C6E6D /* Documentation.docc in Sources */,
 				2F7D376C285D9FA9009642A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +412,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YH9Z7WK452;
+				DOCC_HOSTING_BASE_PATH = widgetDoc;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WidgetDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -437,6 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YH9Z7WK452;
+				DOCC_HOSTING_BASE_PATH = widgetDoc;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WidgetDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

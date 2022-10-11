@@ -60,18 +60,20 @@ struct MyWidgetEntryView : View {
             case .accessoryRectangular, .systemSmall:
                 HStack {
                     VStack {
-                        List {
                             Text("Rectangular")
                                 .font(.system(size: 14))
                             Text("\(widgetRenderingMode.description)")
                                 .foregroundColor(.blue)
                                 .font(.system(size: 13))
-                        }
+//                        }
                     }
+                    
                     Image("test")
                         .resizable()
                         .frame(width: 30, height: 30)
                         .aspectRatio(contentMode: .fit)
+
+                        
                     //                        .privacySensitive() // 私密设置
                 }
             case .accessoryInline:
