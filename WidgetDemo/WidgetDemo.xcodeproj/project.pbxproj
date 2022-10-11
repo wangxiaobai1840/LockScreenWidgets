@@ -412,7 +412,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YH9Z7WK452;
-				DOCC_HOSTING_BASE_PATH = LockScreenWidgets;
+				DOCC_HOSTING_BASE_PATH = WidgetDemo;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WidgetDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -442,7 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YH9Z7WK452;
-				DOCC_HOSTING_BASE_PATH = LockScreenWidgets;
+				DOCC_HOSTING_BASE_PATH = WidgetDemo;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WidgetDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
